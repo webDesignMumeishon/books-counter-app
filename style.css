@@ -70,18 +70,24 @@
     }
     
     #increment-btn {
-        background: darkgreen;
+        background-color: darkgreen;
         opacity: 0.9;
         display: inline-block;
     }
     
-    /* #increment-btn:hover{
-        transform: scale(1.1);
-        border: solid;
-    } */
-    
     #remove-btn {
-        background: darkred;
+        background-color: darkred;
+    }
+
+    #remove-btn:active{
+        background-color: #1877f2;
+        position: relative;
+
+    }
+
+    #increment-btn:active{
+        background-color: #1877f2;
+        position: relative;
     }
     
 }
@@ -146,6 +152,17 @@
         border-radius: 5px;
     }
 
+    #remove-btn:active{
+        background-color: #1877f2;
+        position: relative;
+
+    }
+
+    #increment-btn:active{
+        background-color: #1877f2;
+        position: relative;
+    }
+
     input{
         border: none;
         padding-top: 10px;
@@ -170,6 +187,8 @@
 
     #remove-btn {
         background: darkred;
+        opacity: 0.9;
+        display: inline-block;
     }
 
 }
